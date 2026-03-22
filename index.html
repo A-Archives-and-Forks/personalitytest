@@ -300,110 +300,128 @@
                         <p class="fs-4"><br>{{ $t("value_result") }}</p>
                         <div class="enimg result_value">
                             <div class="IIposition">
-                                <div class="c_progress II">
-                                    <span class="c_progress-left II">
-                                        <span class="c_progress-bar II" :style="{'--eleftII': eleft.II}"></span>
-                                    </span>
-                                    <span class="c_progress-right II">
-                                        <span class="c_progress-bar II" :style="{'--erightII': eright.II}"></span>
-                                    </span>
-                                    <div class="c_progress-value">{{ enneagram_data.II }}</div>
+                                <div class="e_outer II" :style="{'--eringII': 'conic-gradient(#e53e3e ' + (enneagram_data.II / 100 * 360) + 'deg, #e2e8f0 0deg)'}">
+                                    <div class="c_progress II">
+                                        <span class="c_progress-left II">
+                                            <span class="c_progress-bar II" :style="{'--eleftII': eleft.II}"></span>
+                                        </span>
+                                        <span class="c_progress-right II">
+                                            <span class="c_progress-bar II" :style="{'--erightII': eright.II}"></span>
+                                        </span>
+                                        <div class="c_progress-value">{{ enneagram_data.II }}</div>
+                                    </div>
                                 </div>
                                 <p class="e_toolitop heart badge text-wrap">2 {{ $t("pride") }}</p>
                             </div>
                             <div class="IIIposition">
-                                <div class="c_progress III">
-                                    <span class="c_progress-left III">
-                                        <span class="c_progress-bar III" :style="{'--eleftIII': eleft.III}"></span>
-                                    </span>
-                                    <span class="c_progress-right III">
-                                        <span class="c_progress-bar III" :style="{'--erightIII': eright.III}"></span>
-                                    </span>
-                                    <div class="c_progress-value">{{ enneagram_data.III }}</div>
+                                <div class="e_outer III" :style="{'--eringIII': 'conic-gradient(#e53e3e ' + (enneagram_data.III / 100 * 360) + 'deg, #e2e8f0 0deg)'}">
+                                    <div class="c_progress III">
+                                        <span class="c_progress-left III">
+                                            <span class="c_progress-bar III" :style="{'--eleftIII': eleft.III}"></span>
+                                        </span>
+                                        <span class="c_progress-right III">
+                                            <span class="c_progress-bar III" :style="{'--erightIII': eright.III}"></span>
+                                        </span>
+                                        <div class="c_progress-value">{{ enneagram_data.III }}</div>
+                                    </div>
                                 </div>
                                 <p class="e_toolitop heart badge text-wrap">3 {{ $t("vanity") }}</p>
                             </div>
                             <div class="IVposition">
-                                <div class="c_progress IV">
-                                    <span class="c_progress-left IV">
-                                        <span class="c_progress-bar IV" :style="{'--eleftIV': eleft.IV}"></span>
-                                    </span>
-                                    <span class="c_progress-right IV">
-                                        <span class="c_progress-bar IV" :style="{'--erightIV': eright.IV}"></span>
-                                    </span>
-                                    <div class="c_progress-value">{{ enneagram_data.IV }}</div>
+                                <div class="e_outer IV" :style="{'--eringIV': 'conic-gradient(#e53e3e ' + (enneagram_data.IV / 100 * 360) + 'deg, #e2e8f0 0deg)'}">
+                                    <div class="c_progress IV">
+                                        <span class="c_progress-left IV">
+                                            <span class="c_progress-bar IV" :style="{'--eleftIV': eleft.IV}"></span>
+                                        </span>
+                                        <span class="c_progress-right IV">
+                                            <span class="c_progress-bar IV" :style="{'--erightIV': eright.IV}"></span>
+                                        </span>
+                                        <div class="c_progress-value">{{ enneagram_data.IV }}</div>
+                                    </div>
                                 </div>
                                 <p class="e_toolitop heart badge text-wrap">4 {{ $t("envy") }}</p>
                             </div>
                             <div class="Vposition">
-                                <div class="c_progress V">
-                                    <span class="c_progress-left V">
-                                        <span class="c_progress-bar V" :style="{'--eleftV': eleft.V}"></span>
-                                    </span>
-                                    <span class="c_progress-right V">
-                                        <span class="c_progress-bar V" :style="{'--erightV': eright.V}"></span>
-                                    </span>
-                                    <div class="c_progress-value">{{ enneagram_data.V }}</div>
+                                <div class="e_outer V" :style="{'--eringV': 'conic-gradient(#3182ce ' + (enneagram_data.V / 100 * 360) + 'deg, #e2e8f0 0deg)'}">
+                                    <div class="c_progress V">
+                                        <span class="c_progress-left V">
+                                            <span class="c_progress-bar V" :style="{'--eleftV': eleft.V}"></span>
+                                        </span>
+                                        <span class="c_progress-right V">
+                                            <span class="c_progress-bar V" :style="{'--erightV': eright.V}"></span>
+                                        </span>
+                                        <div class="c_progress-value">{{ enneagram_data.V }}</div>
+                                    </div>
                                 </div>
                                 <p class="e_toolitop head badge text-wrap">5 {{ $t("avarice") }}</p>
                             </div>
                             <div class="VIposition">
-                                <div class="c_progress VI">
-                                    <span class="c_progress-left VI">
-                                        <span class="c_progress-bar VI" :style="{'--eleftVI': eleft.VI}"></span>
-                                    </span>
-                                    <span class="c_progress-right VI">
-                                        <span class="c_progress-bar VI" :style="{'--erightVI': eright.VI}"></span>
-                                    </span>
-                                    <div class="c_progress-value">{{ enneagram_data.VI }}</div>
+                                <div class="e_outer VI" :style="{'--eringVI': 'conic-gradient(#3182ce ' + (enneagram_data.VI / 100 * 360) + 'deg, #e2e8f0 0deg)'}">
+                                    <div class="c_progress VI">
+                                        <span class="c_progress-left VI">
+                                            <span class="c_progress-bar VI" :style="{'--eleftVI': eleft.VI}"></span>
+                                        </span>
+                                        <span class="c_progress-right VI">
+                                            <span class="c_progress-bar VI" :style="{'--erightVI': eright.VI}"></span>
+                                        </span>
+                                        <div class="c_progress-value">{{ enneagram_data.VI }}</div>
+                                    </div>
                                 </div>
                                 <p class="e_toolitop head badge text-wrap">6 {{ $t("cowardice") }}</p>
                             </div>
                             <div class="VIIposition">
-                                <div class="c_progress VII">
-                                    <span class="c_progress-left VII">
-                                        <span class="c_progress-bar VII" :style="{'--eleftVII': eleft.VII}"></span>
-                                    </span>
-                                    <span class="c_progress-right VII">
-                                        <span class="c_progress-bar VII" :style="{'--erightVII': eright.VII}"></span>
-                                    </span>
-                                    <div class="c_progress-value">{{ enneagram_data.VII }}</div>
+                                <div class="e_outer VII" :style="{'--eringVII': 'conic-gradient(#3182ce ' + (enneagram_data.VII / 100 * 360) + 'deg, #e2e8f0 0deg)'}">
+                                    <div class="c_progress VII">
+                                        <span class="c_progress-left VII">
+                                            <span class="c_progress-bar VII" :style="{'--eleftVII': eleft.VII}"></span>
+                                        </span>
+                                        <span class="c_progress-right VII">
+                                            <span class="c_progress-bar VII" :style="{'--erightVII': eright.VII}"></span>
+                                        </span>
+                                        <div class="c_progress-value">{{ enneagram_data.VII }}</div>
+                                    </div>
                                 </div>
                                 <p class="e_toolitop head badge text-wrap">7 {{ $t("gluttony") }}</p>
                             </div>
                             <div class="VIIIposition">
-                                <div class="c_progress VIII">
-                                    <span class="c_progress-left VIII">
-                                        <span class="c_progress-bar VIII" :style="{'--eleftVIII': eleft.VIII}"></span>
-                                    </span>
-                                    <span class="c_progress-right VIII">
-                                        <span class="c_progress-bar VIII" :style="{'--erightVIII': eright.VIII}"></span>
-                                    </span>
-                                    <div class="c_progress-value">{{ enneagram_data.VIII }}</div>
+                                <div class="e_outer VIII" :style="{'--eringVIII': 'conic-gradient(#d69e2e ' + (enneagram_data.VIII / 100 * 360) + 'deg, #e2e8f0 0deg)'}">
+                                    <div class="c_progress VIII">
+                                        <span class="c_progress-left VIII">
+                                            <span class="c_progress-bar VIII" :style="{'--eleftVIII': eleft.VIII}"></span>
+                                        </span>
+                                        <span class="c_progress-right VIII">
+                                            <span class="c_progress-bar VIII" :style="{'--erightVIII': eright.VIII}"></span>
+                                        </span>
+                                        <div class="c_progress-value">{{ enneagram_data.VIII }}</div>
+                                    </div>
                                 </div>
                                 <p class="e_toolitop gut badge text-wrap">8 {{ $t("lust") }}</p>
                             </div>
                             <div class="IXposition">
-                                <div class="c_progress IX">
-                                    <span class="c_progress-left IX">
-                                        <span class="c_progress-bar IX" :style="{'--eleftIX': eleft.IX}"></span>
-                                    </span>
-                                    <span class="c_progress-right IX">
-                                        <span class="c_progress-bar IX" :style="{'--erightIX': eright.IX}"></span>
-                                    </span>
-                                    <div class="c_progress-value">{{ enneagram_data.IX }}</div>
+                                <div class="e_outer IX" :style="{'--eringIX': 'conic-gradient(#d69e2e ' + (enneagram_data.IX / 100 * 360) + 'deg, #e2e8f0 0deg)'}">
+                                    <div class="c_progress IX">
+                                        <span class="c_progress-left IX">
+                                            <span class="c_progress-bar IX" :style="{'--eleftIX': eleft.IX}"></span>
+                                        </span>
+                                        <span class="c_progress-right IX">
+                                            <span class="c_progress-bar IX" :style="{'--erightIX': eright.IX}"></span>
+                                        </span>
+                                        <div class="c_progress-value">{{ enneagram_data.IX }}</div>
+                                    </div>
                                 </div>
                                 <p class="e_toolitop gut badge text-wrap">9 {{ $t("indolence") }}</p>
                             </div>
                             <div class="Iposition">
-                                <div class="c_progress I">
-                                    <span class="c_progress-left I">
-                                        <span class="c_progress-bar IV" :style="{'--eleftI': eleft.I}"></span>
-                                    </span>
-                                    <span class="c_progress-right I">
-                                        <span class="c_progress-bar IV" :style="{'--erightI': eright.I}"></span>
-                                    </span>
-                                    <div class="c_progress-value">{{ enneagram_data.I }}</div>
+                                <div class="e_outer I" :style="{'--eringI': 'conic-gradient(#d69e2e ' + (enneagram_data.I / 100 * 360) + 'deg, #e2e8f0 0deg)'}">
+                                    <div class="c_progress I">
+                                        <span class="c_progress-left I">
+                                            <span class="c_progress-bar I" :style="{'--eleftI': eleft.I}"></span>
+                                        </span>
+                                        <span class="c_progress-right I">
+                                            <span class="c_progress-bar I" :style="{'--erightI': eright.I}"></span>
+                                        </span>
+                                        <div class="c_progress-value">{{ enneagram_data.I }}</div>
+                                    </div>
                                 </div>
                                 <p class="e_toolitop gut badge text-wrap">1 {{ $t("anger") }}</p>
                             </div>
