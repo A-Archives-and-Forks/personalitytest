@@ -5,8 +5,8 @@ export var i18n = createI18n({
     messages: {
         zh: {
             start_test: '开始测试',
-            test_title: '人格心理类型测试',
-            hero_subtitle: '从认知偏好到核心动机，用两套不同的理论框架观察你的思考方式与行为倾向。',
+            test_title: '免费人格测试：荣格八维与九型人格',
+            hero_subtitle: '通过荣格八维认知功能测试（MBTI 认知功能）与九型人格测试，探索你的思考偏好、性格类型和核心动机。',
             assessments_label: '项测验',
             reference_only: '仅供参考与娱乐 · 非临床诊断',
             questions_label: '道题',
@@ -405,8 +405,8 @@ export var i18n = createI18n({
         },
         hk: {
             start_test: '開始測驗',
-            test_title: '人格心理類型測試',
-            hero_subtitle: '從認知偏好到核心動機，用兩套不同的理論框架觀察你的思考方式與行為傾向。',
+            test_title: '免費人格測驗：榮格八維與九型人格',
+            hero_subtitle: '透過榮格八維認知功能測驗（MBTI 認知功能）與九型人格測驗，探索你的思考偏好、性格類型和核心動機。',
             assessments_label: '項測驗',
             reference_only: '僅供參考與娛樂 · 非臨床診斷',
             questions_label: '道題',
@@ -818,8 +818,8 @@ export var i18n = createI18n({
         },
         ja: {
             start_test: "テスト開始",
-            test_title: "性格テスト（無料）",
-            hero_subtitle: '認知の傾向から核心的な動機まで、二つの異なる理論を通して、あなたの思考と行動のパターンを見つめます。',
+            test_title: "無料性格診断：ユング認知機能・エニアグラム",
+            hero_subtitle: 'ユング心理学の認知機能（MBTI 認知機能）テストとエニアグラム診断で、思考の傾向、性格タイプ、核心的な動機を探ります。',
             assessments_label: '種類のテスト',
             reference_only: '参考・娯楽目的 · 医療診断ではありません',
             questions_label: '問',
@@ -1217,8 +1217,8 @@ export var i18n = createI18n({
         },
         en: {
             start_test: 'Start Test',
-            test_title: 'Personality Test',
-            hero_subtitle: 'Explore how you think and what drives you through two distinct frameworks for cognition and motivation.',
+            test_title: 'Free Personality Test: Jungian Functions & Enneagram',
+            hero_subtitle: 'Take a free Jungian cognitive functions (MBTI functions) test and Enneagram test to explore your thinking preferences, personality type, and core motivations.',
             assessments_label: 'assessments',
             reference_only: 'For reference and entertainment · Not a clinical diagnosis',
             questions_label: 'questions',

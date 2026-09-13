@@ -1,6 +1,8 @@
 {
   "scripts": {
     "build": "npx vue-cli-service build",
+    "build:cloudflare": "node scripts/build-cloudflare.mjs",
+    "deploy:cloudflare": "npm run build:cloudflare && npx wrangler deploy",
     "lint": "vue-cli-service lint",
     "start": "npm run build"
   },

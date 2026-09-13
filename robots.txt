@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://personalitytest.shiroyazero0.workers.dev/sitemap.xml

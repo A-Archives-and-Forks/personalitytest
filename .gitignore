@@ -64,3 +64,9 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+# Cloudflare local deployment artifacts
+.cloudflare-stage/
+.npm-cache/
+.wrangler/
+.wrangler-config/
